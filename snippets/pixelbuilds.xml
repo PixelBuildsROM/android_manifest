@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="pixelbuilds"
+          fetch="https://github.com/PixelBuildsROM"
+          revision="retina" />
+
+  <remote name="pixelbuilds-devices"
+          fetch="https://github.com/PixelBuilds-Devices"
+          revision="retina" />
+
+  <remote name="pixelbuilds-gitlab"
+          fetch="https://gitlab.com/PixelBuilds"
+          revision="retina" />
+
+  <!-- External -->
+  <project path="external/tremolo" name="android_external_tremolo" remote="pixelbuilds" />
+
+  <!-- Framework -->
+  <project path="frameworks/av" name="android_frameworks_av" remote="pixelbuilds" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="pixelbuilds" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="pixelbuilds" />
+
+  <!-- General -->
+  <project path="build/make" name="android_build" remote="pixelbuilds">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <!-- Packages -->
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="pixelbuilds" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pixelbuilds" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="pixelbuilds" />
+
+  <!-- System -->
+  <project path="system/bt" name="android_system_bt" remote="pixelbuilds" />
+  <project path="system/tools/aidl" name="android_system_tools_aidl" remote="pixelbuilds" />
+
+</manifest>

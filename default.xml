@@ -2,11 +2,20 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
+
+  <remote name="github"
+          fetch="https://github.com/" />
+
+  <remote name="gitlab"
+          fetch="https://gitlab.com" />
+
   <default revision="refs/tags/android-11.0.0_r46"
            remote="aosp"
-           sync-j="4" />
+           sync-j="4"
+           sync-f="true"
+           sync-c="true" />
 
   <superproject name="platform/superproject" remote="aosp"/>
   <contactinfo bugurl="go/repo-bug" />
@@ -832,5 +841,11 @@
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+
+  <!-- AOSP removals -->
+  <include name="snippets/remove.xml" />
+
+  <!-- PixelBuilds additions -->
+  <include name="snippets/pixelbuilds.xml" />
 
 </manifest>
