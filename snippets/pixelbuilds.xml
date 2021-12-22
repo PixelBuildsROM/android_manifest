@@ -31,6 +31,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+  <project path="vendor/pixelbuilds" name="android_vendor_pixelbuilds" remote="pixelbuilds" />
 
   <!-- Packages -->
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="pixelbuilds" />
