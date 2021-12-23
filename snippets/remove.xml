@@ -73,6 +73,7 @@
 
   <!-- General -->
   <remove-project name="platform/build" />
+  <remove-project name="platform/platform_testing" />
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Browser2" />
