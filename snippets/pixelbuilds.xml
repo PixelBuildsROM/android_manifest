@@ -92,7 +92,6 @@
   <project path="hardware/qcom-caf/sm8550/display" name="android_hardware_qcom_display" remote="pixelbuilds" revision="unity-caf-sm8550" />
 
   <!-- Inline kernel build -->
-  <project path="external/dwarves" name="platform/external/dwarves" remote="aosp" revision="3c8f7e8b2cf7ff902b71c42d00fda30f30114b07" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="refs/tags/android-14.0.0_r0.8" />
 
   <!-- Packages repos -->
