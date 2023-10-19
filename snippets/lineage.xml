@@ -9,46 +9,14 @@
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="lineage" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="lineage" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="lineage" />
-  <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" remote="lineage" />
-  <project path="hardware/qcom/sdm845/media" name="android_hardware_qcom_sdm845_media" remote="lineage" />
-  <project path="hardware/qcom/sm7250/display" name="android_hardware_qcom_sm7250_display" remote="lineage" />
-  <project path="hardware/qcom/sm7250/media" name="android_hardware_qcom_sm7250_media" remote="lineage" />
 
   <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" revision="lineage-20.0-caf" remote="lineage" />
-  <project path="hardware/qcom-caf/msm8953/audio" name="android_hardware_qcom_audio" revision="lineage-20.0-caf-msm8953" remote="lineage" />
-  <project path="hardware/qcom-caf/msm8953/display" name="android_hardware_qcom_display" revision="lineage-20.0-caf-msm8953" remote="lineage" />
-  <project path="hardware/qcom-caf/msm8953/media" name="android_hardware_qcom_media" revision="lineage-20.0-caf-msm8953" remote="lineage" />
-  <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" revision="lineage-20.0-caf-msm8996" remote="lineage" />
-  <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" revision="lineage-20.0-caf-msm8996" remote="lineage" />
-  <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" revision="lineage-20.0-caf-msm8996" remote="lineage" />
-  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" revision="lineage-20.0-caf-msm8998" remote="lineage" />
-  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" revision="lineage-20.0-caf-msm8998" remote="lineage" />
-  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" revision="lineage-20.0-caf-msm8998" remote="lineage" />
-  <project path="hardware/qcom-caf/sdm660/audio" name="android_hardware_qcom_audio" revision="lineage-20.0-caf-sdm660" remote="lineage" />
-  <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom_display" revision="lineage-20.0-caf-sdm660" remote="lineage" />
-  <project path="hardware/qcom-caf/sdm660/media" name="android_hardware_qcom_media" revision="lineage-20.0-caf-sdm660" remote="lineage" />
-  <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" revision="lineage-20.0-caf-sdm845" remote="lineage" />
-  <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" revision="lineage-20.0-caf-sdm845" remote="lineage" />
-  <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom_media" revision="lineage-20.0-caf-sdm845" remote="lineage" />
-  <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" revision="lineage-20.0-caf-sm8150" remote="lineage" />
-  <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" revision="lineage-20.0-caf-sm8150" remote="lineage" />
-  <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" revision="lineage-20.0-caf-sm8150" remote="lineage" />
-  <project path="hardware/qcom-caf/sm8250/audio" name="android_hardware_qcom_audio" revision="lineage-20.0-caf-sm8250" remote="lineage" />
-  <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" revision="lineage-20.0-caf-sm8250" remote="lineage" />
-  <project path="hardware/qcom-caf/sm8250/media" name="android_hardware_qcom_media" revision="lineage-20.0-caf-sm8250" remote="lineage" />
-  <project path="hardware/qcom-caf/sm8350/audio" name="android_hardware_qcom_audio" revision="lineage-20.0-caf-sm8350" remote="lineage" />
-  <project path="hardware/qcom-caf/sm8350/display" name="android_hardware_qcom_display" revision="lineage-20.0-caf-sm8350" remote="lineage" />
-  <project path="hardware/qcom-caf/sm8350/media" name="android_hardware_qcom_media" revision="lineage-20.0-caf-sm8350" remote="lineage" />
   <project path="hardware/qcom-caf/sm8450/audio/agm" name="android_vendor_qcom_opensource_agm" revision="lineage-20.0-caf-sm8450" remote="lineage" />
   <project path="hardware/qcom-caf/sm8450/audio/pal" name="android_vendor_qcom_opensource_arpal-lx" revision="lineage-20.0-caf-sm8450" remote="lineage" />
   <project path="hardware/qcom-caf/sm8450/audio/primary-hal" name="android_hardware_qcom_audio-ar" revision="lineage-20.0-caf-sm8450" remote="lineage" />
-  <project path="hardware/qcom-caf/sm8450/display" name="android_hardware_qcom_display" revision="lineage-20.0-caf-sm8450" remote="lineage" />
-  <project path="hardware/qcom-caf/sm8450/media" name="android_hardware_qcom_media" revision="lineage-20.0-caf-sm8450" remote="lineage" />
   <project path="hardware/qcom-caf/sm8550/audio/agm" name="android_vendor_qcom_opensource_agm" revision="lineage-20.0-caf-sm8550" remote="lineage" />
   <project path="hardware/qcom-caf/sm8550/audio/pal" name="android_vendor_qcom_opensource_arpal-lx" revision="lineage-20.0-caf-sm8550" remote="lineage" />
   <project path="hardware/qcom-caf/sm8550/audio/primary-hal" name="android_hardware_qcom_audio-ar" revision="lineage-20.0-caf-sm8550" remote="lineage" />
-  <project path="hardware/qcom-caf/sm8550/display" name="android_hardware_qcom_display" revision="lineage-20.0-caf-sm8550" remote="lineage" />
-  <project path="hardware/qcom-caf/sm8550/media" name="android_hardware_qcom_media" revision="lineage-20.0-caf-sm8550" remote="lineage" />
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" remote="lineage" />
   <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" remote="lineage" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" revision="lineage-20.0-caf" remote="lineage" />
