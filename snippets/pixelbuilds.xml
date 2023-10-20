@@ -53,6 +53,7 @@
 
   <!-- Hardware repos -->
   <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="pixelbuilds" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="pixelbuilds" />
   <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" remote="pixelbuilds" />
   <project path="hardware/qcom/sm8150/display" name="android_hardware_qcom_sm8150_display" remote="pixelbuilds" />
   <project path="hardware/qcom/sm8150/media" name="android_hardware_qcom_sm8150_media" remote="pixelbuilds" />
