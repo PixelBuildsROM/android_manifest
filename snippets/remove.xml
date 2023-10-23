@@ -90,6 +90,7 @@
 
   <!-- Hardware repos -->
   <remove-project name="platform/hardware/interfaces" />
+  <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/qcom/power" />
   <remove-project name="platform/hardware/qcom/camera" />
   <remove-project name="platform/hardware/qcom/display" />
