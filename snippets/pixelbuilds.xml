@@ -35,6 +35,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="bootable/recovery" name="android_bootable_recovery" remote="pixelbuilds" />
+  <project path="kernel/configs" name="android_kernel_configs" remote="pixelbuilds" />
   <project path="manifest" name="android_manifest" remote="pixelbuilds" />
   <project path="vendor/pb" name="android_vendor_pb" remote="pixelbuilds" />
   <project path="vendor/gms" name="android_vendor_gms" remote="pixelbuilds-gitlab" clone-depth="1" />

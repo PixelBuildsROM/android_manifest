@@ -87,6 +87,7 @@
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
+  <remove-project name="kernel/configs" />
 
   <!-- Hardware repos -->
   <remove-project name="platform/hardware/interfaces" />
