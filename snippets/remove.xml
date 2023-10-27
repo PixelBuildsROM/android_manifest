@@ -126,6 +126,7 @@
   <remove-project name="platform/packages/screensavers/PhotoTable" />
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/modules/Bluetooth" />
+  <remove-project name="platform/packages/modules/Permission" />
 
   <!-- System repos -->
   <remove-project name="platform/system/core" />
