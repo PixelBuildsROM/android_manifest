@@ -1273,7 +1273,8 @@
   <!-- Add PixelBuilds repos -->
   <include name="snippets/pixelbuilds.xml" />
 
-  <!-- Lineage snippet -->
+  <!-- Lineage snippets -->
   <include name="snippets/lineage.xml" />
+  <include name="snippets/pixel.xml" />
 
 </manifest>
