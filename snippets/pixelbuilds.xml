@@ -104,5 +104,6 @@
   <project path="system/core" name="android_system_core" remote="pixelbuilds" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="pixelbuilds" />
   <project path="system/bpf" name="android_system_bpf" remote="pixelbuilds" />
+  <project path="system/update_engine" name="android_system_update_engine" remote="pixelbuilds" />
 
 </manifest>
