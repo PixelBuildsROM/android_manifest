@@ -106,4 +106,6 @@
   <project path="system/bpf" name="android_system_bpf" remote="pixelbuilds" />
   <project path="system/update_engine" name="android_system_update_engine" remote="pixelbuilds" />
 
+  <!-- Vendor repos -->
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="pixelbuilds" />
 </manifest>
