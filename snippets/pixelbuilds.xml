@@ -9,6 +9,10 @@
           fetch="https://gitlab.com/PixelBuilds"
           revision="unity" />
 
+  <remote name="pixelbuilds-gitea"
+          fetch="https://git.pixelbuilds.org/android"
+          revision="unity" />
+
   <remote name="pixelbuilds-devices"
           fetch="https://github.com/PixelBuilds-Devices"
           revision="unity" />
@@ -38,7 +42,7 @@
   <project path="kernel/configs" name="android_kernel_configs" remote="pixelbuilds" />
   <project path="manifest" name="android_manifest" remote="pixelbuilds" />
   <project path="vendor/pb" name="android_vendor_pb" remote="pixelbuilds" />
-  <project path="vendor/gms" name="android_vendor_gms" remote="pixelbuilds-gitlab" clone-depth="1" />
+  <project path="vendor/gms" name="android_vendor_gms" remote="pixelbuilds-gitea" clone-depth="1" />
 
   <!-- Device repos -->
   <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="pixelbuilds" />
