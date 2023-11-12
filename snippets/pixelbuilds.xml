@@ -101,6 +101,7 @@
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pixelbuilds" />
   <project path="packages/apps/RepainterService" name="android_packages_apps_RepainterService" remote="pixelbuilds" />
   <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="pixelbuilds" />
+  <project path="packages/apps/PixelBuildsWallpapers" name="android_packages_apps_PixelBuildsWallpapers" remote="pixelbuilds" />
   <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="pixelbuilds" />
   <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="pixelbuilds" />
 
