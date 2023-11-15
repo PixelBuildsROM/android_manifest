@@ -5,8 +5,8 @@
           fetch="https://github.com/PixelBuilds-Staging"
           revision="unity" />
 
-  <remote name="pixelbuilds-gitlab"
-          fetch="https://gitlab.com/PixelBuilds"
+  <remote name="pixelbuilds-blobs-gitlab"
+          fetch="https://gitlab.com/PixelBuilds/vendor-blobs"
           revision="unity" />
 
   <remote name="pixelbuilds-gitea"
