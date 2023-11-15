@@ -41,7 +41,6 @@
   <project path="bootable/recovery" name="android_bootable_recovery" remote="pixelbuilds" />
   <project path="kernel/configs" name="android_kernel_configs" remote="pixelbuilds" />
   <project path="manifest" name="android_manifest" remote="pixelbuilds" />
-  <project path="vendor/pb" name="android_vendor_pb" remote="pixelbuilds" />
   <project path="vendor/gms" name="android_vendor_gms" remote="pixelbuilds-gitea" clone-depth="1" />
 
   <!-- Device repos -->
@@ -112,6 +111,9 @@
   <project path="system/update_engine" name="android_system_update_engine" remote="pixelbuilds" />
 
   <!-- Vendor repos -->
+  <project path="vendor/pb" name="android_vendor_pb" remote="pixelbuilds" >
+    <linkfile src="build.sh" dest="pb-build.sh" />
+  </project>
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="pixelbuilds" />
 
   <!-- Extras -->
