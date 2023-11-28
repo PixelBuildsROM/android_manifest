@@ -2,7 +2,7 @@
 
 ## Setting up your building enviroment ##
 
-To establish your building environment, ensure that you are operating a 64-bit Linux distribution and have installed necessary packages for building Paranoid Android. Preferably, use Ubuntu as recommended by Google. Follow the system setup instructions, including Ubuntu-specific commands, available on the [Android Open Source Project website](https://source.android.com/source/initializing.html#setting-up-a-linux-build-environment).
+To establish your building environment, ensure that you are operating a 64-bit Linux distribution and have installed necessary packages for building Android. Preferably, use Ubuntu as recommended by Google. Follow the system setup instructions, including Ubuntu-specific commands, available on the [Android Open Source Project website](https://source.android.com/source/initializing.html#setting-up-a-linux-build-environment).
 
 After configuring your machine, return here to proceed with the subsequent instructions.
 
