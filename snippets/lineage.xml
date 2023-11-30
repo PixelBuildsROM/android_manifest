@@ -98,4 +98,7 @@
   <project path="external/unrar" name="android_external_unrar" remote="lineage" />
   <project path="external/vim" name="android_external_vim" remote="lineage" />
   <project path="external/json-c" name="android_external_json-c" remote="lineage" />
+
+  <!-- Packages -->
+  <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="lineage" />
 </manifest>
