@@ -80,4 +80,4 @@ $ ./pb-build.sh --help
 ```
 
 ## Submitting Patches ##
-Your contributions are always valued! Please submit your patches to our [Gerrit](review.pixelbuilds.org).
+Your contributions are always valued! Please submit your patches to our [Gerrit](https://review.pixelbuilds.org).
