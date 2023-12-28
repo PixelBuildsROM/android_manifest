@@ -101,6 +101,7 @@
   <project path="packages/apps/PixelBuildsWallpapers" name="android_packages_apps_PixelBuildsWallpapers" remote="pixelbuilds" />
   <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="pixelbuilds" />
   <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="pixelbuilds" />
+  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="pixelbuilds" />
 
   <!-- System Repos -->
   <project path="system/core" name="android_system_core" remote="pixelbuilds" />
