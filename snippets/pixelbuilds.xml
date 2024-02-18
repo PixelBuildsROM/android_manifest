@@ -59,6 +59,8 @@
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="pixelbuilds" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="pixelbuilds" />
   <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="pixelbuilds" />
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="pixelbuilds" />
+  <project path="hardware/qcom/data/ipacfg-mgr" name="android_hardware_qcom_data_ipacfg-mgr" remote="pixelbuilds" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="pixelbuilds" />
   <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" remote="pixelbuilds" />
   <project path="hardware/qcom/sm8150/display" name="android_hardware_qcom_sm8150_display" remote="pixelbuilds" />
