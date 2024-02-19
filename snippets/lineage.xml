@@ -97,6 +97,7 @@
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" />
   
   <!-- Extras -->
+  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="lineage" />
   <project path="external/htop" name="android_external_htop" remote="lineage" />
   <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
   <project path="external/nano" name="android_external_nano" remote="lineage" />
