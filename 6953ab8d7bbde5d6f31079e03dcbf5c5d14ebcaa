@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "46914db7_9ce054e2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-02-19T22:17:00Z",
+      "side": 1,
+      "message": "`android_external_gptfdisk` not `platform_external_gptfdisk`",
+      "revId": "6953ab8d7bbde5d6f31079e03dcbf5c5d14ebcaa",
+      "serverId": "54889931-03f6-4e00-8ab8-119c55947771"
+    }
+  ]
+}
