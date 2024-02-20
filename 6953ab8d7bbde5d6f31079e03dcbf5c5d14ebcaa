@@ -16,6 +16,24 @@
       "message": "`android_external_gptfdisk` not `platform_external_gptfdisk`",
       "revId": "6953ab8d7bbde5d6f31079e03dcbf5c5d14ebcaa",
       "serverId": "54889931-03f6-4e00-8ab8-119c55947771"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "21390a06_0111546b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000013
+      },
+      "writtenOn": "2024-02-20T13:35:11Z",
+      "side": 1,
+      "message": "Fixed :)",
+      "parentUuid": "46914db7_9ce054e2",
+      "revId": "6953ab8d7bbde5d6f31079e03dcbf5c5d14ebcaa",
+      "serverId": "54889931-03f6-4e00-8ab8-119c55947771"
     }
   ]
 }
