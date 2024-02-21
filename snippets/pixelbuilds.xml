@@ -54,6 +54,9 @@
   <project path="external/libnl" name="android_external_libnl" remote="pixelbuilds" />
   <project path="external/zstd" name="android_external_zstd" remote="pixelbuilds" />
   <project path="external/mksh" name="android_external_mksh" remote="pixelbuilds" />
+  <project path="external/mksh" name="android_external_libcxx" remote="pixelbuilds" />
+  <project path="external/mksh" name="android_external_dtc" remote="pixelbuilds" />
+  <project path="external/mksh" name="android_external_gptfdisk" remote="pixelbuilds" />
 
   <!-- Hardware repos -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="pixelbuilds" />
