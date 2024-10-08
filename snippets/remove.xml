@@ -90,6 +90,7 @@
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
+  <remove-project name="platform/libcore" />
   <remove-project name="kernel/configs" />
 
   <!-- Hardware repos -->
@@ -136,6 +137,7 @@
   <remove-project name="platform/packages/modules/Bluetooth" />
   <remove-project name="platform/packages/modules/Permission" />
   <remove-project name="platform/packages/modules/HealthFitness" />
+  <remove-project name="platform/packages/modules/IntentResolver" />
   <remove-project name="platform/packages/modules/RemoteKeyProvisioning" />
   <remove-project name="platform/packages/modules/StatsD" />
   <remove-project name="platform/packages/providers/MediaProvider" />
