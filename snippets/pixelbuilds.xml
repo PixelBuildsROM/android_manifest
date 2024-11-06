@@ -61,6 +61,7 @@
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="pixelbuilds" />
   <project path="external/skia" name="android_external_skia" remote="pixelbuilds" />
   <project path="external/sonivox" name="android_external_sonivox" remote="pixelbuilds" />
+  <project path="external/jemalloc_new" name="android_external_jemalloc_new" remote="pixelbuilds" />
 
   <!-- Hardware repos -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="pixelbuilds" />
