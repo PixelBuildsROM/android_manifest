@@ -59,6 +59,7 @@
   <project path="external/libcxx" name="android_external_libcxx" remote="pixelbuilds" />
   <project path="external/dtc" name="android_external_dtc" remote="pixelbuilds" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="pixelbuilds" />
+  <project path="external/skia" name="android_external_skia" remote="pixelbuilds" />
   <project path="external/sonivox" name="android_external_sonivox" remote="pixelbuilds" />
 
   <!-- Hardware repos -->
@@ -129,6 +130,7 @@
   <project path="system/core" name="android_system_core" remote="pixelbuilds" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="pixelbuilds" />
   <project path="system/bpf" name="android_system_bpf" remote="pixelbuilds" />
+  <project path="system/keymint" name="android_system_keymint" remote="pixelbuilds" />
   <project path="system/nfc" name="android_system_nfc" remote="pixelbuilds" />
   <project path="system/security" name="android_system_security" remote="pixelbuilds" />
   <project path="system/update_engine" name="android_system_update_engine" remote="pixelbuilds" />
