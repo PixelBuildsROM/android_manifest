@@ -1283,6 +1283,9 @@
   <include name="snippets/lineage.xml" />
   <include name="snippets/pixel.xml" />
 
+  <!-- Lindroid snippets -->
+  <include name="snippets/lmodroid.xml" />
+
   <!-- Extra remotes -->
   <include name="snippets/remotes.xml" />
 

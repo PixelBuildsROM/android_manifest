@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="lindroid"
+        fetch="https://github.com/Linux-on-droid"
+        revision="lindroid-21" />
+
+    <!-- External -->
+    <project path="external/lxc" name="external_lxc" remote="lindroid" />
+    <project path="external/libhybris" name="libhybris" remote="lindroid" />
+
+    <!-- Vendor -->
+    <project path="vendor/lindroid" name="vendor_lindroid" remote="lindroid" />
+</manifest>
