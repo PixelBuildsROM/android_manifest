@@ -143,6 +143,7 @@
   <remove-project name="platform/packages/modules/Wifi" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/services/Telecomm" />
+  <remove-project name="platform/packages/services/Telephony" />
 
   <!-- System repos -->
   <remove-project name="platform/system/core" />
@@ -155,6 +156,7 @@
   <remove-project name="platform/system/libfmq" />
 
   <!-- External -->
+  <remove-project name="platform/external/giflib" />
   <remove-project name="platform/external/libnl" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/skia" />
