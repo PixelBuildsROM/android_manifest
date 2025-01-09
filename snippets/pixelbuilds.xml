@@ -53,6 +53,7 @@
   <project path="device/qcom/sepolicy_vndr-legacy-um" name="android_device_qcom_sepolicy_vndr-legacy-um" remote="pixelbuilds" />
 
   <!-- External repos -->
+  <project path="external/giflib" name="android_external_giflib" remote="pixelbuilds" />
   <project path="external/libnl" name="android_external_libnl" remote="pixelbuilds" />
   <project path="external/zstd" name="android_external_zstd" remote="pixelbuilds" />
   <project path="external/mksh" name="android_external_mksh" remote="pixelbuilds" />
