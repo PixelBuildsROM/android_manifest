@@ -82,6 +82,7 @@
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/libs/modules-utils" />
+  <remove-project name="platform/frameworks/libs/net" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/opt/telephony" />
 
@@ -118,6 +119,7 @@
   <remove-project name="platform/packages/apps/DevCamera" />
   <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/Dialer" />
+  <remove-project name="platform/packages/apps/DocumentsUI" />
   <remove-project name="platform/packages/apps/Gallery" />
   <remove-project name="platform/packages/apps/Gallery2" />
   <remove-project name="platform/packages/apps/LegacyCamera" />
@@ -135,6 +137,7 @@
   <remove-project name="platform/packages/screensavers/PhotoTable" />
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/modules/Bluetooth" />
+  <remove-project name="platform/packages/modules/Connectivity" />
   <remove-project name="platform/packages/modules/Permission" />
   <remove-project name="platform/packages/modules/HealthFitness" />
   <remove-project name="platform/packages/modules/IntentResolver" />
@@ -143,6 +146,7 @@
   <remove-project name="platform/packages/modules/Wifi" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/services/Telecomm" />
+  <remove-project name="platform/packages/services/Telephony" />
 
   <!-- System repos -->
   <remove-project name="platform/system/core" />
@@ -155,6 +159,7 @@
   <remove-project name="platform/system/libfmq" />
 
   <!-- External -->
+  <remove-project name="platform/external/giflib" />
   <remove-project name="platform/external/libnl" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/skia" />
