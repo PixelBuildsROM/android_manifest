@@ -127,6 +127,7 @@
   <project path="packages/modules/RemoteKeyProvisioning" name="android_packages_modules_RemoteKeyProvisioning" remote="pixelbuilds" />
   <project path="packages/modules/StatsD" name="android_packages_modules_StatsD" remote="pixelbuilds" />
   <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="pixelbuilds" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="pixelbuilds" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="pixelbuilds" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="pixelbuilds" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="pixelbuilds" />
