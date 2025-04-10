@@ -3,11 +3,11 @@
 
   <remote name="pixelbuilds"
           fetch="https://github.com/PixelBuildsROM"
-          revision="unity" />
+          revision="infinity" />
 
   <remote name="pixelbuilds-blobs-gitlab"
           fetch="https://gitlab.com/PixelBuilds/vendor-blobs"
-          revision="unity" />
+          revision="infinity" />
 
   <remote name="pixelbuilds-gitea"
           fetch="https://git.pixelbuilds.org/android"
@@ -15,18 +15,19 @@
 
   <remote name="pixelbuilds-devices"
           fetch="https://github.com/PixelBuilds-Devices"
-          revision="unity" />
+          revision="infinity" />
 
   <!-- Framework repos -->
-  <project path="frameworks/av" name="android_frameworks_av" remote="pixelbuilds" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="pixelbuilds" revision="unity" />
   <project path="frameworks/base" name="android_frameworks_base" remote="pixelbuilds" />
-  <project path="frameworks/libs/net" name="android_frameworks_libs_net" remote="pixelbuilds" />
-  <project path="frameworks/libs/modules-utils" name="android_frameworks_libs_modules-utils" remote="pixelbuilds" />
+  <project path="frameworks/libs/net" name="android_frameworks_libs_net" remote="pixelbuilds" revision="unity" />
+  <project path="frameworks/libs/modules-utils" name="android_frameworks_libs_modules-utils" remote="pixelbuilds" revision="unity" />
   <project path="frameworks/native" name="android_frameworks_native" remote="pixelbuilds" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="pixelbuilds" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="pixelbuilds" revision="unity" />
 
   <!-- General repos -->
-  <project path="bionic" name="android_bionic" remote="pixelbuilds" />
+  <project path="art" name="android_art" remote="pixelbuilds" />
+  <project path="bionic" name="android_bionic" remote="pixelbuilds" revision="unity" />
   <project path="build/make" name="android_build" remote="pixelbuilds">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -40,45 +41,45 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="pixelbuilds" />
-  <project path="kernel/configs" name="android_kernel_configs" remote="pixelbuilds" />
-  <project path="libcore" name="android_libcore" remote="pixelbuilds" />
-  <project path="manifest" name="android_manifest" remote="pixelbuilds" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="pixelbuilds" revision="unity" />
+  <project path="kernel/configs" name="android_kernel_configs" remote="pixelbuilds" revision="unity" />
+  <project path="libcore" name="android_libcore" remote="pixelbuilds" revision="unity" />
+  <project path="manifest" name="android_manifest" remote="pixelbuilds" revision="unity" />
   <project path="vendor/gms" name="android_vendor_gms" remote="pixelbuilds-gitea" clone-depth="1" />
 
   <!-- Device repos -->
-  <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="pixelbuilds" />
-  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="pixelbuilds" />
-  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="pixelbuilds" />
-  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="pixelbuilds" />
-  <project path="device/qcom/sepolicy_vndr-legacy-um" name="android_device_qcom_sepolicy_vndr-legacy-um" remote="pixelbuilds" />
+  <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="pixelbuilds" revision="unity" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="pixelbuilds" revision="unity" />
+  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="pixelbuilds" revision="unity" />
+  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="pixelbuilds" revision="unity" />
+  <project path="device/qcom/sepolicy_vndr-legacy-um" name="android_device_qcom_sepolicy_vndr-legacy-um" remote="pixelbuilds" revision="unity" />
 
   <!-- External repos -->
   <project path="external/dng_sdk" name="android_external_dng_sdk" remote="pixelbuilds" />
-  <project path="external/giflib" name="android_external_giflib" remote="pixelbuilds" />
-  <project path="external/libnl" name="android_external_libnl" remote="pixelbuilds" />
-  <project path="external/zstd" name="android_external_zstd" remote="pixelbuilds" />
-  <project path="external/mksh" name="android_external_mksh" remote="pixelbuilds" />
-  <project path="external/libcxx" name="android_external_libcxx" remote="pixelbuilds" />
-  <project path="external/dtc" name="android_external_dtc" remote="pixelbuilds" />
-  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="pixelbuilds" />
+  <project path="external/giflib" name="android_external_giflib" remote="pixelbuilds" revision="unity" />
+  <project path="external/libnl" name="android_external_libnl" remote="pixelbuilds" revision="unity" />
+  <project path="external/zstd" name="android_external_zstd" remote="pixelbuilds" revision="unity" />
+  <project path="external/mksh" name="android_external_mksh" remote="pixelbuilds" revision="unity" />
+  <project path="external/libcxx" name="android_external_libcxx" remote="pixelbuilds" revision="unity" />
+  <project path="external/dtc" name="android_external_dtc" remote="pixelbuilds" revision="unity" />
+  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="pixelbuilds" revision="unity" />
   <project path="external/skia" name="android_external_skia" remote="pixelbuilds" />
-  <project path="external/sonivox" name="android_external_sonivox" remote="pixelbuilds" />
-  <project path="external/jemalloc_new" name="android_external_jemalloc_new" remote="pixelbuilds" />
+  <project path="external/sonivox" name="android_external_sonivox" remote="pixelbuilds" revision="unity" />
+  <project path="external/jemalloc_new" name="android_external_jemalloc_new" remote="pixelbuilds" revision="unity" />
 
   <!-- Hardware repos -->
-  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="pixelbuilds" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="pixelbuilds" />
-  <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="pixelbuilds" />
-  <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="pixelbuilds" />
-  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="pixelbuilds" />
-  <project path="hardware/qcom/data/ipacfg-mgr" name="android_hardware_qcom_data_ipacfg-mgr" remote="pixelbuilds" />
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="pixelbuilds" />
-  <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" remote="pixelbuilds" />
-  <project path="hardware/google/pixel" name="android_hardware_google_pixel" remote="pixelbuilds" />
-  <project path="hardware/qcom/sm8150/display" name="android_hardware_qcom_sm8150_display" remote="pixelbuilds" />
-  <project path="hardware/qcom/sm8150/media" name="android_hardware_qcom_sm8150_media" remote="pixelbuilds" />
-  <project path="hardware/qcom/sm7250/display" name="android_hardware_qcom_sm7250_display" remote="pixelbuilds" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="pixelbuilds" revision="unity" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="pixelbuilds" revision="unity" />
+  <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="pixelbuilds" revision="unity" />
+  <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="pixelbuilds" revision="unity" />
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="pixelbuilds" revision="unity" />
+  <project path="hardware/qcom/data/ipacfg-mgr" name="android_hardware_qcom_data_ipacfg-mgr" remote="pixelbuilds" revision="unity" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="pixelbuilds" revision="unity" />
+  <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" remote="pixelbuilds" revision="unity" />
+  <project path="hardware/google/pixel" name="android_hardware_google_pixel" remote="pixelbuilds" revision="unity" />
+  <project path="hardware/qcom/sm8150/display" name="android_hardware_qcom_sm8150_display" remote="pixelbuilds" revision="unity" />
+  <project path="hardware/qcom/sm8150/media" name="android_hardware_qcom_sm8150_media" remote="pixelbuilds" revision="unity" />
+  <project path="hardware/qcom/sm7250/display" name="android_hardware_qcom_sm7250_display" remote="pixelbuilds" revision="unity" />
   <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" remote="aosp" revision="refs/tags/android-13.0.0_r82" >
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom/sdm845/Android.bp" />
@@ -112,43 +113,43 @@
 
   <!-- Packages repos -->
   <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="pixelbuilds" />
-  <project path="packages/apps/FaceUnlock" name="android_packages_apps_FaceUnlock" remote="pixelbuilds" />
-  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="pixelbuilds" />
+  <project path="packages/apps/FaceUnlock" name="android_packages_apps_FaceUnlock" remote="pixelbuilds" revision="unity" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="pixelbuilds" revision="unity" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pixelbuilds" />
-  <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="pixelbuilds" />
-  <project path="packages/apps/PixelBuildsWallpapers" name="android_packages_apps_PixelBuildsWallpapers" remote="pixelbuilds" />
-  <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="pixelbuilds" />
-  <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="pixelbuilds" />
+  <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="pixelbuilds" revision="unity" />
+  <project path="packages/apps/PixelBuildsWallpapers" name="android_packages_apps_PixelBuildsWallpapers" remote="pixelbuilds" revision="unity" />
+  <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="pixelbuilds" revision="unity" />
+  <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="pixelbuilds" revision="unity" />
   <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="pixelbuilds" />
-  <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="pixelbuilds" />
+  <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="pixelbuilds" revision="unity" />
   <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="pixelbuilds" />
-  <project path="packages/modules/HealthFitness" name="android_packages_modules_HealthFitness" remote="pixelbuilds" />
+  <project path="packages/modules/HealthFitness" name="android_packages_modules_HealthFitness" remote="pixelbuilds" revision="unity" />
   <project path="packages/modules/IntentResolver" name="android_packages_modules_IntentResolver" remote="pixelbuilds" />
-  <project path="packages/modules/RemoteKeyProvisioning" name="android_packages_modules_RemoteKeyProvisioning" remote="pixelbuilds" />
-  <project path="packages/modules/StatsD" name="android_packages_modules_StatsD" remote="pixelbuilds" />
-  <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="pixelbuilds" />
-  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="pixelbuilds" />
+  <project path="packages/modules/RemoteKeyProvisioning" name="android_packages_modules_RemoteKeyProvisioning" remote="pixelbuilds" revision="unity" />
+  <project path="packages/modules/StatsD" name="android_packages_modules_StatsD" remote="pixelbuilds" revision="unity" />
+  <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="pixelbuilds" revision="unity" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="pixelbuilds" revision="unity" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="pixelbuilds" />
-  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="pixelbuilds" />
+  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="pixelbuilds" revision="unity" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="pixelbuilds" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="pixelbuilds" />
 
   <!-- System Repos -->
-  <project path="system/core" name="android_system_core" remote="pixelbuilds" />
-  <project path="system/sepolicy" name="android_system_sepolicy" remote="pixelbuilds" />
-  <project path="system/bpf" name="android_system_bpf" remote="pixelbuilds" />
-  <project path="system/keymint" name="android_system_keymint" remote="pixelbuilds" />
-  <project path="system/nfc" name="android_system_nfc" remote="pixelbuilds" />
-  <project path="system/security" name="android_system_security" remote="pixelbuilds" />
-  <project path="system/update_engine" name="android_system_update_engine" remote="pixelbuilds" />
-  <project path="system/libfmq" name="android_system_libfmq" remote="pixelbuilds" />
+  <project path="system/core" name="android_system_core" remote="pixelbuilds" revision="unity" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="pixelbuilds" revision="unity" />
+  <project path="system/bpf" name="android_system_bpf" remote="pixelbuilds" revision="unity" />
+  <project path="system/keymint" name="android_system_keymint" remote="pixelbuilds" revision="unity" />
+  <project path="system/nfc" name="android_system_nfc" remote="pixelbuilds" revision="unity" />
+  <project path="system/security" name="android_system_security" remote="pixelbuilds" revision="unity" />
+  <project path="system/update_engine" name="android_system_update_engine" remote="pixelbuilds" revision="unity" />
+  <project path="system/libfmq" name="android_system_libfmq" remote="pixelbuilds" revision="unity" />
 
   <!-- Vendor repos -->
-  <project path="vendor/pb" name="android_vendor_pb" remote="pixelbuilds" >
+  <project path="vendor/pb" name="android_vendor_pb" remote="pixelbuilds">
     <linkfile src="build.sh" dest="pb-build.sh" />
   </project>
-  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="pixelbuilds" />
-  <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="pixelbuilds" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="pixelbuilds" revision="unity" />
+  <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="pixelbuilds" revision="unity" />
 
   <!-- Extras -->
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
