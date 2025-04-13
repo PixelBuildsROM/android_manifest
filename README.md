@@ -35,13 +35,13 @@ $ cd WORKSPACE
 
 # Init Repo in the created directory
 # Use a real name/email combination, if you intend to submit patches
-$ repo init -u https://github.com/PixelBuildsROM/android_manifest -b unity
+$ repo init -u https://github.com/PixelBuildsROM/android_manifest -b infinity
 ```
 
 Or alternatively if you do not intend to submit patches and/or have limited network/disk space resources:
 
 ```bash
-$ repo init -u https://github.com/PixelBuildsROM/android_manifest -b unity --depth=1
+$ repo init -u https://github.com/PixelBuildsROM/android_manifest -b infinity --depth=1
 ```
 
 
@@ -80,4 +80,4 @@ $ ./pb-build.sh --help
 ```
 
 ## Submitting Patches ##
-Your contributions are always valued! Please submit your patches to our [Gerrit](https://review.pixelbuilds.org).
+Your contributions are always valued! Please submit your patches to our [Gerrit](https://pixelbuilds.org/docs/gerrit-quickstart/).
