@@ -48,7 +48,7 @@
   <project path="vendor/gms" name="android_vendor_gms" remote="pixelbuilds-gitea" clone-depth="1" />
 
   <!-- Device repos -->
-  <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="pixelbuilds" revision="unity" />
+  <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="pixelbuilds" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="pixelbuilds" revision="unity" />
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="pixelbuilds" revision="unity" />
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="pixelbuilds" revision="unity" />
