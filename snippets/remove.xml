@@ -174,4 +174,5 @@
   <remove-project name="platform/external/sonivox" />
   <remove-project name="platform/external/noto-fonts" />
   <remove-project name="platform/external/jemalloc_new" />
+  <remove-project name="platform/external/freetype" />
 </manifest>

@@ -18,7 +18,7 @@
           revision="infinity" />
 
   <!-- Framework repos -->
-  <project path="frameworks/av" name="android_frameworks_av" remote="pixelbuilds" revision="unity" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="pixelbuilds" />
   <project path="frameworks/base" name="android_frameworks_base" remote="pixelbuilds" />
   <project path="frameworks/libs/net" name="android_frameworks_libs_net" remote="pixelbuilds" revision="unity" />
   <project path="frameworks/libs/modules-utils" name="android_frameworks_libs_modules-utils" remote="pixelbuilds" revision="unity" />
@@ -66,6 +66,7 @@
   <project path="external/skia" name="android_external_skia" remote="pixelbuilds" />
   <project path="external/sonivox" name="android_external_sonivox" remote="pixelbuilds" revision="unity" />
   <project path="external/jemalloc_new" name="android_external_jemalloc_new" remote="pixelbuilds" revision="unity" />
+  <project path="external/freetype" name="android_external_freetype" remote="pixelbuilds" />
 
   <!-- Hardware repos -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="pixelbuilds" revision="unity" />
@@ -127,7 +128,7 @@
   <project path="packages/modules/IntentResolver" name="android_packages_modules_IntentResolver" remote="pixelbuilds" />
   <project path="packages/modules/RemoteKeyProvisioning" name="android_packages_modules_RemoteKeyProvisioning" remote="pixelbuilds" revision="unity" />
   <project path="packages/modules/StatsD" name="android_packages_modules_StatsD" remote="pixelbuilds" revision="unity" />
-  <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="pixelbuilds" revision="unity" />
+  <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="pixelbuilds" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="pixelbuilds" revision="unity" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="pixelbuilds" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="pixelbuilds" revision="unity" />
