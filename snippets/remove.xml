@@ -133,6 +133,7 @@
   <remove-project name="platform/packages/apps/SpareParts" />
   <remove-project name="platform/packages/apps/Test/connectivity" />
   <remove-project name="platform/packages/apps/WallpaperPicker" />
+  <remove-project name="platform/packages/apps/ManagedProvisioning" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/screensavers/Basic" />
   <remove-project name="platform/packages/screensavers/PhotoTable" />
