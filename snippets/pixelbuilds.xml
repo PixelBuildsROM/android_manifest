@@ -68,6 +68,7 @@
   <project path="external/jemalloc_new" name="android_external_jemalloc_new" remote="pixelbuilds" revision="unity" />
   <project path="external/freetype" name="android_external_freetype" remote="pixelbuilds" />
   <project path="external/boringssl" name="android_external_boringssl" remote="pixelbuilds" />
+  <project path="external/bouncycastle" name="android_external_bouncycastle" remote="pixelbuilds" />
 
   <!-- Hardware repos -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="pixelbuilds" revision="unity" />

@@ -177,4 +177,5 @@
   <remove-project name="platform/external/jemalloc_new" />
   <remove-project name="platform/external/freetype" />
   <remove-project name="platform/external/boringssl" />
+  <remove-project name="platform/external/bouncycastle" />
 </manifest>
