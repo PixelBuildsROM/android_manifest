@@ -35,13 +35,13 @@ $ cd WORKSPACE
 
 # Init Repo in the created directory
 # Use a real name/email combination, if you intend to submit patches
-$ repo init -u https://github.com/PixelBuildsROM/android_manifest -b infinity
+$ repo init -u https://github.com/PixelBuildsROM/android_manifest -b infinity-oss
 ```
 
 Or alternatively if you do not intend to submit patches and/or have limited network/disk space resources:
 
 ```bash
-$ repo init -u https://github.com/PixelBuildsROM/android_manifest -b infinity --depth=1
+$ repo init -u https://github.com/PixelBuildsROM/android_manifest -b infinity-oss --depth=1
 ```
 
 
