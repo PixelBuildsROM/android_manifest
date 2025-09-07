@@ -23,7 +23,7 @@
   <project path="frameworks/libs/net" name="android_frameworks_libs_net" remote="pixelbuilds" revision="unity" />
   <project path="frameworks/libs/modules-utils" name="android_frameworks_libs_modules-utils" remote="pixelbuilds" revision="unity" />
   <project path="frameworks/native" name="android_frameworks_native" remote="pixelbuilds" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="pixelbuilds" revision="unity" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="pixelbuilds" revision="infinity" />
 
   <!-- General repos -->
   <project path="art" name="android_art" remote="pixelbuilds" />
