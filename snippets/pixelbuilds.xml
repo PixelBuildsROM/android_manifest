@@ -23,7 +23,7 @@
   <project path="frameworks/libs/net" name="android_frameworks_libs_net" remote="pixelbuilds" revision="unity" />
   <project path="frameworks/libs/modules-utils" name="android_frameworks_libs_modules-utils" remote="pixelbuilds" revision="unity" />
   <project path="frameworks/native" name="android_frameworks_native" remote="pixelbuilds" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="pixelbuilds" revision="unity" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="pixelbuilds" />
 
   <!-- General repos -->
   <project path="art" name="android_art" remote="pixelbuilds" />
@@ -125,6 +125,7 @@
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="pixelbuilds" />
   <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="pixelbuilds" revision="unity" />
   <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="pixelbuilds" />
+  <project path="packages/modules/CellBroadcastService" name="android_packages_modules_CellBroadcastService" remote="pixelbuilds" />
   <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="pixelbuilds" />
   <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="pixelbuilds" />
   <project path="packages/modules/HealthFitness" name="android_packages_modules_HealthFitness" remote="pixelbuilds" revision="unity" />
