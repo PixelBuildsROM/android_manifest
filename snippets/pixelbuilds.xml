@@ -84,13 +84,16 @@
   <project path="hardware/qcom/sm8150/gps" name="android_hardware_qcom_sm8150_gps" remote="pixelbuilds" />
   <project path="hardware/qcom/sm8150/media" name="android_hardware_qcom_sm8150_media" remote="pixelbuilds" revision="unity" />
   <project path="hardware/qcom/sm7250/display" name="android_hardware_qcom_sm7250_display" remote="pixelbuilds" revision="unity" />
-  <project path="hardware/qcom/sm7250/gps" name="android_hardware_qcom_sm7250_gps" remote="pixelbuilds" />
+  <project path="hardware/qcom/sm7250/gps" name="android_hardware_qcom_sm7250_gps" remote="pixelbuilds" >
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sm7250/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom/sm7250/Android.bp" />
+  </project>
   <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" remote="aosp" revision="refs/tags/android-13.0.0_r82" >
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom/sdm845/Android.bp" />
   </project>
   <project path="hardware/qcom/sdm845/bt" name="platform/hardware/qcom/sdm845/bt" remote="aosp" revision="refs/tags/android-13.0.0_r82" />
-  <project path="hardware/qcom/sdm845/gps" name="android_hardware_qcom_sm8150_gps" remote="pixelbuilds" />
+  <project path="hardware/qcom/sdm845/gps" name="android_hardware_qcom_sdm845_gps" remote="pixelbuilds" />
   <project path="hardware/qcom/sdm845/thermal" name="platform/hardware/qcom/sdm845/thermal" remote="aosp" revision="refs/tags/android-13.0.0_r82" />
   <project path="hardware/qcom/sdm845/vr" name="platform/hardware/qcom/sdm845/vr" remote="aosp" revision="refs/tags/android-13.0.0_r82"/>
 
