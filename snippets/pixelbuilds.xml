@@ -29,7 +29,7 @@
 
   <!-- General repos -->
   <project path="art" name="android_art" remote="pixelbuilds" revision="infinity" />
-  <project path="bionic" name="android_bionic" remote="pixelbuilds" revision="unity" />
+  <project path="bionic" name="android_bionic" remote="pixelbuilds" />
   <project path="build/make" name="android_build" remote="pixelbuilds">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -72,6 +72,8 @@
   <project path="external/boringssl" name="android_external_boringssl" remote="pixelbuilds" />
   <project path="external/bouncycastle" name="android_external_bouncycastle" remote="pixelbuilds" revision="infinity" />
   <project path="external/setupcompat" name="android_external_setupcompat" remote="pixelbuilds" />
+  <project path="external/openssh" name="android_external_openssh" remote="pixelbuilds" />
+  <project path="external/sqlite" name="android_external_sqlite" remote="pixelbuilds" />
 
   <!-- Hardware repos -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="pixelbuilds" revision="unity" />
