@@ -1281,7 +1281,6 @@
 
   <!-- Lineage snippets -->
   <include name="snippets/lineage.xml" />
-  <include name="snippets/pixel.xml" />
 
   <!-- Extra remotes -->
   <include name="snippets/remotes.xml" />
