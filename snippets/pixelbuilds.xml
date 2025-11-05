@@ -44,7 +44,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="pixelbuilds" revision="unity" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="pixelbuilds" />
   <project path="kernel/configs" name="android_kernel_configs" remote="pixelbuilds" revision="unity" />
   <project path="libcore" name="android_libcore" remote="pixelbuilds" revision="unity" />
   <project path="manifest" name="android_manifest" remote="pixelbuilds" revision="unity" />
@@ -147,7 +147,7 @@
   <project path="packages/apps/Jelly" name="android_packages_apps_Jelly" remote="pixelbuilds" />
   <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="pixelbuilds" />
   <project path="packages/apps/SetupWizard" name="android_packages_apps_SetupWizard" remote="pixelbuilds" />
-  <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="pixelbuilds" revision="infinity" />
+  <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="pixelbuilds" />
   <project path="packages/modules/CellBroadcastService" name="android_packages_modules_CellBroadcastService" remote="pixelbuilds" revision="infinity" />
   <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="pixelbuilds" revision="infinity" />
   <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="pixelbuilds" revision="infinity" />
@@ -172,7 +172,7 @@
   <project path="system/keymint" name="android_system_keymint" remote="pixelbuilds" revision="unity" />
   <project path="system/nfc" name="android_system_nfc" remote="pixelbuilds" revision="unity" />
   <project path="system/security" name="android_system_security" remote="pixelbuilds" />
-  <project path="system/update_engine" name="android_system_update_engine" remote="pixelbuilds" revision="unity" />
+  <project path="system/update_engine" name="android_system_update_engine" remote="pixelbuilds" />
   <project path="system/libfmq" name="android_system_libfmq" remote="pixelbuilds" revision="unity" />
 
   <!-- Vendor repos -->
