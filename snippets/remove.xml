@@ -113,6 +113,7 @@
   <remove-project name="platform/hardware/qcom/sm8150/gps" />
   <remove-project name="platform/hardware/qcom/sm8150/media" />
   <remove-project name="platform/hardware/qcom/sm8150p/gps" />
+  <remove-project name="platform/hardware/qcom/sm7150/gps" />
   <remove-project name="platform/hardware/qcom/sm7250/display" />
   <remove-project name="platform/hardware/qcom/sm7250/gps" />
   <remove-project name="platform/hardware/qcom/sm7250/media" />
@@ -144,6 +145,7 @@
   <remove-project name="platform/packages/apps/WallpaperPicker" />
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <remove-project name="platform/packages/apps/ManagedProvisioning" />
+  <remove-project name="platform/packages/apps/CertInstaller" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/screensavers/Basic" />
   <remove-project name="platform/packages/screensavers/PhotoTable" />
@@ -161,6 +163,7 @@
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
+  <remove-project name="platform/packages/services/Mms" />
 
   <!-- System repos -->
   <remove-project name="platform/system/core" />
