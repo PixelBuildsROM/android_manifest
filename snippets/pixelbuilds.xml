@@ -75,6 +75,7 @@
   <project path="external/setupcompat" name="android_external_setupcompat" remote="pixelbuilds" />
   <project path="external/openssh" name="android_external_openssh" remote="pixelbuilds" />
   <project path="external/sqlite" name="android_external_sqlite" remote="pixelbuilds" />
+  <project path="external/libpng" name="android_external_libpng" remote="pixelbuilds" />
 
   <!-- Hardware repos -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="pixelbuilds" revision="unity" />

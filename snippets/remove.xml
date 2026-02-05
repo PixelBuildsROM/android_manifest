@@ -195,5 +195,6 @@
   <remove-project name="platform/external/setupcompat" />
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/sqlite" />
+  <remove-project name="platform/external/libpng" />
 
 </manifest>
