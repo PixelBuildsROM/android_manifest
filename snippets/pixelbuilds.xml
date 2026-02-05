@@ -47,7 +47,6 @@
   <project path="bootable/recovery" name="android_bootable_recovery" remote="pixelbuilds" />
   <project path="kernel/configs" name="android_kernel_configs" remote="pixelbuilds" revision="unity" />
   <project path="libcore" name="android_libcore" remote="pixelbuilds" revision="unity" />
-  <project path="manifest" name="android_manifest" remote="pixelbuilds" revision="unity" />
   <project path="vendor/prebuilts" name="android_vendor_prebuilts" remote="pixelbuilds-gitea" />
 
   <!-- Device repos -->
