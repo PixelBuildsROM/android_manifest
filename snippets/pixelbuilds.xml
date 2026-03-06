@@ -18,7 +18,7 @@
           revision="infinity-oss" />
 
   <!-- Framework repos -->
-  <project path="frameworks/av" name="android_frameworks_av" remote="pixelbuilds" revision="infinity" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="pixelbuilds" />
   <project path="frameworks/base" name="android_frameworks_base" remote="pixelbuilds" />
   <project path="frameworks/libs/net" name="android_frameworks_libs_net" remote="pixelbuilds" revision="unity" />
   <project path="frameworks/libs/modules-utils" name="android_frameworks_libs_modules-utils" remote="pixelbuilds" revision="unity" />
@@ -30,6 +30,7 @@
 
   <!-- General repos -->
   <project path="art" name="android_art" remote="pixelbuilds" revision="infinity" />
+  <project path="cts" name="android_cts" remote="pixelbuilds" />
   <project path="bionic" name="android_bionic" remote="pixelbuilds" />
   <project path="build/make" name="android_build" remote="pixelbuilds">
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -57,7 +58,7 @@
   <project path="device/qcom/sepolicy_vndr-legacy-um" name="android_device_qcom_sepolicy_vndr-legacy-um" remote="pixelbuilds" revision="unity" />
 
   <!-- External repos -->
-  <project path="external/dng_sdk" name="android_external_dng_sdk" remote="pixelbuilds" revision="infinity" />
+  <project path="external/dng_sdk" name="android_external_dng_sdk" remote="pixelbuilds" />
   <project path="external/giflib" name="android_external_giflib" remote="pixelbuilds" revision="unity" />
   <project path="external/libnl" name="android_external_libnl" remote="pixelbuilds" revision="unity" />
   <project path="external/zstd" name="android_external_zstd" remote="pixelbuilds" revision="unity" />
@@ -65,7 +66,7 @@
   <project path="external/libcxx" name="android_external_libcxx" remote="pixelbuilds" revision="unity" />
   <project path="external/dtc" name="android_external_dtc" remote="pixelbuilds" revision="unity" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="pixelbuilds" revision="unity" />
-  <project path="external/skia" name="android_external_skia" remote="pixelbuilds" revision="infinity" />
+  <project path="external/skia" name="android_external_skia" remote="pixelbuilds" />
   <project path="external/sonivox" name="android_external_sonivox" remote="pixelbuilds" revision="unity" />
   <project path="external/jemalloc_new" name="android_external_jemalloc_new" remote="pixelbuilds" revision="unity" />
   <project path="external/freetype" name="android_external_freetype" remote="pixelbuilds" revision="infinity" />
@@ -79,6 +80,7 @@
   <!-- Hardware repos -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="pixelbuilds" revision="unity" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="pixelbuilds" revision="unity" />
+  <project path="hardware/st/nfc" name="android_hardware_st_nfc" remote="pixelbuilds" />
   <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="pixelbuilds" revision="infinity" />
   <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="pixelbuilds" revision="infinity" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="pixelbuilds" revision="unity" />
@@ -131,7 +133,7 @@
 
   <!-- Packages repos -->
   <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" remote="pixelbuilds" />
-  <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="pixelbuilds" />
+  <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" />
   <project path="packages/apps/FaceUnlock" name="android_packages_apps_FaceUnlock" remote="pixelbuilds" revision="unity" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="pixelbuilds" revision="unity" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pixelbuilds" />
@@ -152,22 +154,23 @@
   <project path="packages/apps/Jelly" name="android_packages_apps_Jelly" remote="pixelbuilds" />
   <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="pixelbuilds" />
   <project path="packages/apps/SetupWizard" name="android_packages_apps_SetupWizard" remote="pixelbuilds" />
-  <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="pixelbuilds" />
+  <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" />
   <project path="packages/modules/CellBroadcastService" name="android_packages_modules_CellBroadcastService" remote="pixelbuilds" revision="infinity" />
   <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="pixelbuilds" revision="infinity" />
-  <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="pixelbuilds" revision="infinity" />
+  <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="pixelbuilds" />
   <project path="packages/modules/HealthFitness" name="android_packages_modules_HealthFitness" remote="pixelbuilds" revision="unity" />
   <project path="packages/modules/IntentResolver" name="android_packages_modules_IntentResolver" remote="pixelbuilds" />
   <project path="packages/modules/RemoteKeyProvisioning" name="android_packages_modules_RemoteKeyProvisioning" remote="pixelbuilds" revision="unity" />
   <project path="packages/modules/StatsD" name="android_packages_modules_StatsD" remote="pixelbuilds" revision="unity" />
   <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="pixelbuilds" revision="infinity" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="pixelbuilds" revision="unity" />
-  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="pixelbuilds" revision="infinity" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="pixelbuilds" />
+  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="pixelbuilds" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="pixelbuilds" revision="unity" />
   <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="pixelbuilds" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="pixelbuilds" />
   <project path="packages/services/Mms" name="android_packages_services_Mms" remote="pixelbuilds" />
-  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="pixelbuilds" revision="infinity" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="pixelbuilds" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="pixelbuilds" />
   <project path="packages/overlays/customization" name="android_packages_overlays_customization" remote="pixelbuilds" />
 
