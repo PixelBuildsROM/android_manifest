@@ -17,6 +17,10 @@
           fetch="https://github.com/PixelBuilds-Devices"
           revision="infinity" />
 
+  <remote  name="pixelbuilds-gitlab-archive"
+           fetch="https://git.prz.pw/pixelbuilds"
+           revision="infinity" />
+
   <!-- Framework repos -->
   <project path="frameworks/av" name="android_frameworks_av" remote="pixelbuilds" />
   <project path="frameworks/base" name="android_frameworks_base" remote="pixelbuilds" />
@@ -45,7 +49,7 @@
   <project path="kernel/configs" name="android_kernel_configs" remote="pixelbuilds" revision="unity" />
   <project path="libcore" name="android_libcore" remote="pixelbuilds" revision="unity" />
   <project path="manifest" name="android_manifest" remote="pixelbuilds" revision="unity" />
-  <project path="vendor/gms" name="android_vendor_gms" remote="pixelbuilds-gitea" clone-depth="1" />
+  <project path="vendor/gms" name="android_vendor_gms" remote="pixelbuilds-gitlab-archive" clone-depth="1" />
 
   <!-- Device repos -->
   <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="pixelbuilds" />
