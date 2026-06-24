@@ -5,4 +5,7 @@
 
   <remote  name="gitlab"
            fetch="https://gitlab.com" />
+
+  <remote name="pixelbuilds-gitea"
+           fetch="https://git.pixelbuilds.org" />
 </manifest>
