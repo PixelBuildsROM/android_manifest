@@ -13,6 +13,10 @@
           fetch="https://git.pixelbuilds.org/android"
           revision="infinity-oss" />
 
+  <remote name="pixelbuilds-gitea-devices"
+          fetch="https://git.pixelbuilds.org/device-trees"
+          revision="infinity-oss" />
+
   <remote name="pixelbuilds-devices"
           fetch="https://github.com/PixelBuilds-Devices"
           revision="infinity-oss" />
