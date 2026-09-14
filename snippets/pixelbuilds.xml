@@ -33,8 +33,9 @@
   <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" remote="pixelbuilds" />
 
   <!-- General repos -->
-  <project path="art" name="android_art" remote="pixelbuilds" revision="infinity" />
+  <project path="art" name="android_art" remote="pixelbuilds" />
   <project path="cts" name="android_cts" remote="pixelbuilds" />
+  <project path="development" name="android_development" remote="pixelbuilds" />
   <project path="bionic" name="android_bionic" remote="pixelbuilds" />
   <project path="build/make" name="android_build" remote="pixelbuilds">
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -73,16 +74,19 @@
   <project path="external/skia" name="android_external_skia" remote="pixelbuilds" />
   <project path="external/sonivox" name="android_external_sonivox" remote="pixelbuilds" revision="unity" />
   <project path="external/jemalloc_new" name="android_external_jemalloc_new" remote="pixelbuilds" revision="unity" />
-  <project path="external/freetype" name="android_external_freetype" remote="pixelbuilds" revision="infinity" />
+  <project path="external/freetype" name="android_external_freetype" remote="pixelbuilds" />
   <project path="external/boringssl" name="android_external_boringssl" remote="pixelbuilds" />
   <project path="external/bouncycastle" name="android_external_bouncycastle" remote="pixelbuilds" revision="infinity" />
   <project path="external/setupcompat" name="android_external_setupcompat" remote="pixelbuilds" />
   <project path="external/openssh" name="android_external_openssh" remote="pixelbuilds" />
   <project path="external/sqlite" name="android_external_sqlite" remote="pixelbuilds" />
   <project path="external/libpng" name="android_external_libpng" remote="pixelbuilds" />
+  <project path="external/libhevc" name="android_external_libhevc" remote="pixelbuilds" />
+  <project path="external/exfatprogs" name="android_external_exfatprogs" remote="pixelbuilds" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="pixelbuilds" />
 
   <!-- Hardware repos -->
-  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="pixelbuilds" revision="unity" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="pixelbuilds" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="pixelbuilds" revision="unity" />
   <project path="hardware/st/nfc" name="android_hardware_st_nfc" remote="pixelbuilds" />
   <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="pixelbuilds" revision="infinity" />
@@ -139,7 +143,7 @@
   <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" remote="pixelbuilds" />
   <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="pixelbuilds" />
   <project path="packages/apps/FaceUnlock" name="android_packages_apps_FaceUnlock" remote="pixelbuilds" revision="unity" />
-  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="pixelbuilds" revision="unity" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="pixelbuilds" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pixelbuilds" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="pixelbuilds" />
   <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" remote="pixelbuilds" />
@@ -151,6 +155,9 @@
   <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="pixelbuilds" revision="unity" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="pixelbuilds" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="pixelbuilds" />
+  <project path="packages/apps/TV" name="android_packages_apps_TV" remote="pixelbuilds" />
+  <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" remote="pixelbuilds" />
+  <project path="packages/apps/Car/Settings" name="android_packages_apps_Car_Settings" remote="pixelbuilds" />
   <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="pixelbuilds" />
   <project path="packages/apps/Seedvault" name="android_packages_apps_Seedvault" remote="pixelbuilds" />
   <project path="packages/apps/Etar" name="android_packages_apps_Etar" remote="pixelbuilds" />
@@ -187,10 +194,12 @@
   <project path="system/sepolicy" name="android_system_sepolicy" remote="pixelbuilds" revision="unity" />
   <project path="system/bpf" name="android_system_bpf" remote="pixelbuilds" revision="unity" />
   <project path="system/keymint" name="android_system_keymint" remote="pixelbuilds" revision="unity" />
-  <project path="system/nfc" name="android_system_nfc" remote="pixelbuilds" revision="unity" />
+  <project path="system/nfc" name="android_system_nfc" remote="pixelbuilds" />
   <project path="system/security" name="android_system_security" remote="pixelbuilds" />
   <project path="system/update_engine" name="android_system_update_engine" remote="pixelbuilds" />
   <project path="system/libfmq" name="android_system_libfmq" remote="pixelbuilds" revision="unity" />
+  <project path="system/incremental_delivery" name="android_system_incremental_delivery" remote="pixelbuilds" />
+  <project path="system/media" name="android_system_media" remote="pixelbuilds" />
 
   <!-- Vendor repos -->
   <project path="vendor/pb" name="android_vendor_pb" remote="pixelbuilds">

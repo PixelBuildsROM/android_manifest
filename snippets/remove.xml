@@ -91,6 +91,7 @@
 
   <!-- General repos -->
   <remove-project name="platform/art" />
+  <remove-project name="platform/development" />
   <remove-project name="platform/cts" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/bootable/recovery" />
@@ -149,6 +150,9 @@
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <remove-project name="platform/packages/apps/ManagedProvisioning" />
   <remove-project name="platform/packages/apps/CertInstaller" />
+  <remove-project name="platform/packages/apps/TV" />
+  <remove-project name="platform/packages/apps/TvSettings" />
+  <remove-project name="platform/packages/apps/Car/Settings" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/screensavers/Basic" />
   <remove-project name="platform/packages/screensavers/PhotoTable" />
@@ -181,6 +185,8 @@
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/libfmq" />
+  <remove-project name="platform/system/media" />
+  <remove-project name="platform/system/incremental_delivery" />
 
   <!-- External -->
   <remove-project name="platform/external/dng_sdk" />
@@ -203,5 +209,8 @@
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/libpng" />
+  <remove-project name="platform/external/libhevc" />
+  <remove-project name="platform/external/exfatprogs" />
+  <remove-project name="platform/external/wpa_supplicant_8" />
 
 </manifest>
