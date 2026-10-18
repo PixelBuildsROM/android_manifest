@@ -198,6 +198,7 @@
   <project path="system/security" name="android_system_security" remote="pixelbuilds" />
   <project path="system/update_engine" name="android_system_update_engine" remote="pixelbuilds" />
   <project path="system/libfmq" name="android_system_libfmq" remote="pixelbuilds" revision="unity" />
+  <project path="system/libufdt" name="android_system_libufdt" remote="pixelbuilds" />
   <project path="system/incremental_delivery" name="android_system_incremental_delivery" remote="pixelbuilds" />
   <project path="system/media" name="android_system_media" remote="pixelbuilds" />
 
